@@ -1,0 +1,17 @@
+matcalc
+matgl
+seekpath
+crystal-toolkit
+mace-torch
+torch
+mp-api
+
+
+# other models
+tensorpotential # for GRACE
+orb-models
+pet-mad
+
+# incompatible
+# mattersim
+# sevenn
