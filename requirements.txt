@@ -1,17 +1,37 @@
+# run this before installation
+# pip install torch==2.4.1+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+# pip install  dgl -f https://data.dgl.ai/wheels/torch-2.4/cu124/repo.html
+
 matcalc
 matgl
 seekpath
 crystal-toolkit
 mace-torch
-torch
 mp-api
+pip
+setuptools 
+ipykernel
+jupyterlab
+jupyter
+ipywidgets
+notebook==6.5.7
+seaborn
+pandas
+openpyxl
+matplotlib
+jupyter-server
 
 
 # other models
-tensorpotential # for GRACE
-orb-models
-pet-mad
+# tensorpotential # for GRACE
+# orb-models
+# pet-mad
 
 # incompatible
 # mattersim
 # sevenn
+
+
+# conda remove --name matcalc_env all
+# conda create --name matcalc_env python=3.12
+# conda activate matcalc_env
