@@ -20,6 +20,7 @@ pandas
 openpyxl
 matplotlib
 jupyter-server
+icet
 
 
 # other models
